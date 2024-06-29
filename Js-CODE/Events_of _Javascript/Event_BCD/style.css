@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5rem;
+    cursor: pointer;
+}
+.grandParent{
+ background-color: #89d5f8;
+   
+}
+.parent{
+    background-color: hsl(251, 94%, 51%);
+}
+.child{
+   
+    background-color: hsl(230 45% 30%);
+}

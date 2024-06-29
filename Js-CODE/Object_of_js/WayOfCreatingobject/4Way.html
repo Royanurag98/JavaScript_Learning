@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory Function</title>
+</head>
+<body>
+
+    <Script>
+        // in factory Function use camelcase for creating constructor
+        function createDetail(First_Name, Last_Name, Age, Course, Skills, Nationality ){
+            return {
+                   // These are object Properties
+              First_Name : First_Name ,//String
+              Last_Name   :Last_Name, //String
+              Age        : 24,     // Number
+              Course     : Age ,   // String
+              Skills     :Skills, //Array
+              Nationality:Nationality , // boolean
+ 
+        }
+    }
+    const Dtails=createDetail("Anurag", "Kumar", 23, "MCA", "WEb_DEV", "Indian")
+    console.log(Dtails);
+    </Script>
+    
+</body>
+</html>

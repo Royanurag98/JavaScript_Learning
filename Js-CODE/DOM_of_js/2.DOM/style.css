@@ -1,0 +1,10 @@
+.Heading{
+    background-color: aqua;
+    color:black;
+
+}
+#box{
+    background-color: pink;
+    color:blue;
+    border: 2px solid green;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object literal</title>
+</head>
+<body>
+    
+1. By object literal :  This is the easiest way to create a JavaScript Object. An object
+   literal is a list of name:value pairs inside curly braces {} seperated by samicolon.. 
+   For readability, simplicity and execution speed, use the object literal method.
+    
+   In javascript object key value pairs are called properties so a JavaScript object is
+   a collection of unordered properties. Properties can usually be changed, added, and 
+   deleted, but some are read only.
+   
+   Accessing JavaScript Properties
+   We can access JavaScript Properties with dot(.) or square brakets []
+
+
+
+ Note:
+        => key is always string but value may be different data type.
+        => Object can store string , number, boolean, array, function ...
+    
+         <script>
+        
+            const obj={
+               // These are object Properties
+                "First_Name":"Anurag",//String
+                "Last_Name" :"Kumar", //String
+                 "Age"      : 24,     // Number
+                 "Course"   :"MCA",   // String
+                 "Skills":["C", "C++","JavaScript","HTML","CSS","ReactJs"], //Array
+                 "Indial"   :"yes", // boolean
+                 
+               // Method or Behaviour of object
+                  "greatMe" :function(){ /// Function
+                  document.write("Good Morning how are you")
+                  }
+               
+            }
+// Accessing JavaScript Properties
+   // We can access JavaScript Properties with dot(.) or square brakets []
+
+//          // Access with dot (.)
+            console.log(obj);        // Access whole object with key and value
+            console.log(obj.Age);    // Access particular object value
+            console.log(obj.First_Name);
+
+//         // Access with square brakets []
+            console.log(obj["Age"]);    // Access particular object value
+            console.log(obj['First_Name']);
+        
+// Adding New Properties
+//    You can add new properties to an existing object by simply giving it a value.
+            obj.Belong="Bihar";
+            console.log(obj);
+
+// Deleting Properties
+//   The delete keyword deletes a property from an object:
+            delete obj.Age;
+            console.log(obj);
+
+// Update Properties
+            obj.Age="21";
+            console.log(obj);
+
+
+
+         </script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Student={
+             "Name":"Anurag",
+              "Id":12213389,
+              "Roll":45,
+              "Marks":89,
+                Sum:()=>{
+// When we use this keyword inside the object. this keyword point the same object
+                console.log(this.Marks);
+             } 
+        };
+        console.log(Student.Sum());
+  
+    </script>
+</body>
+</html>

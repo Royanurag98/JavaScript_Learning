@@ -1,0 +1,31 @@
+                            JAVASCRIPT
+What is programming
+Computer programming is a medium for us to communicate with computer. Just  like we 
+Hindi Or English to communicate with each other, program is a way for us  to deliver
+our instructions to the  computer.
+
+>What is ECMA Script ?    
+ECMA stand for European computer manufacturers Association Script. It is provide standard
+(Means java script program run any browser) to JavaScript for different browser it is also
+ known as modern JavaScript. ECMA Script also used in node.js.
+
+What is JavaScript ?    
+JavaScript is a scripting language that enables you to create dynamically updating content, 
+control multimedia, animate images, and pretty much everything else. (Okay, not everything,
+ but it is amazing what you can achieve with a few lines of JavaScript code).
+
+
+How to execute JavaScript program ?
+We can executes JavaScript  program in many ways.
+JavaScript can be execute right inside one’s browser you can open the JavaScript console and 
+start writing JavaScript there. Another way to execute JavaScript is a runtime like Node.js 
+which can be installed and used to run JavaScript code Yet another way to execute JavaScript 
+is by inserting it inside script tag of an html document.
+ 
+HOW JAVASCRIPT WORK.
+JavaScript => AST => Convert in Machine => Converted Code using JavaScript Engine
+
+Parser basically check syntax error or not in this JavaScript file.
+AST(Abstract Syntax Tree) create a  tree of your JavaScript code.
+And then convert in Machine Code your JavaScript code.
+And then run converted  Code using JavaScript Engine.

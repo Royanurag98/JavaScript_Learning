@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information About Number</title>
+</head>
+<body>
+>JavaScript Numbers are Always 64-bit Floating Point
+Unlike many other programming languages, JavaScript does not define different types of numbers,
+like integers, short, long, floating-point etc.JavaScript numbers are always stored as double
+precision floating point numbers, following the international IEEE 754 standard.This format
+stores numbers in 64 bits, where the number (the fraction) is stored in bits 0 to 51, the 
+exponent in bits 52 to 62, and the sign in bit 63:
+
+JavaScript uses the + operator for both addition and concatenation.
+Numbers are added. Strings are concatenated.
+The JavaScript interpreter works from left to right
+</body>
+<script>
+    // If you add two numbers, the result will be a number:
+    //If you add two strings, the result will be a string concatenation:
+    //If you add a number and a string, the result will be a string concatenation:
+    //If you add a string and a number, the result will be a string concatenation
+    let x = 10;
+    let y = 20;//The JavaScript interpreter works from left to right
+    let z = "The result is: " + x + y;
+    console.log("Result in string :",z);// The result is:2010
+    let m = 10;
+    let n = 20;
+    let o = "30";
+    let result = m + n + o;
+    console.log("Result in string :",result);//3030
+
+// JavaScript strings can have numeric content means JavaScript will try to convert strings
+// to numbers in all numeric operations(/, *, %, - ): except + operator
+let a="10"
+let b="10"
+console.log(a/b);// 1
+console.log(a%b);// 0
+console.log(a*b);// 100
+console.log(a-b);// 0
+console.log(a**b);// 1000000
+console.log(a+10);//1010
+
+//Normally JavaScript numbers are primitive values But numbers can also be defined as 
+//objects with the keyword new::
+let p = 123; 
+let q = new Number(p);
+console.log(p,typeof(p));// Number
+console.log(q,typeof(q));// Object
+
+
+
+//Comparing two JavaScript objects always returns false.
+let r= new Number(123);
+let s= new Number(133);
+console.log(r==s);// false
+console.log(r===s);// false
+// But Comparing number with JavaScript objects always returns true.
+ let t=123;
+ console.log(t==r);// True
+ console.log(t===r);// False
+
+</script>
+</html>

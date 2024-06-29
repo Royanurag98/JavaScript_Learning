@@ -1,0 +1,99 @@
+                                       VARIABLE IN JAVASCRIPT.
+Variables are Containers for Storing Data in other word we can say that Variable is the name of a memory location where we stores some data. 
+=>The Value of variable can be changed.
+=>The name of variable is always meaningful .
+         Like  age =56;
+
+Note
+>JavaScript provide a future
+The value of a JavaScript variable can be changed during the execution of a program . (if we store a string in a variable we can also store number, array, object in same variable) that is called dynamically typed language.
+example
+           let m=5;
+           console.log(m);
+           m="Anurag";
+           console.log(m);
+ 
+
+
+>Dynamic typing means we can change the type of variable in runtime.
+>Static typing means first we need to declare the type of variable like int , float ,char etc.
+>JavaScript has dynamic types. This means that the same variable can be used to hold different data types:
+                let x;         // Now x is undefined
+                x = 5;         // Now x is a Number
+                x = "John";    // Now x is a String
+                console.log(x);
+                console.log(typeof(x));
+
+
+>There are specific rules we must follow while naming a variable:
+=> Variables are case sensitive. Means small and capital varible name  both are different variable.
+=> A variable name can contain alphabets, digits, and underscore [_]. and $ sign only. But first character of a variable name must be alphabet or underscores(_) and $ sign .
+=> White spaces and comma cannot be used.
+=> The name should not be reserved keyword.
+
+>JAVASCRIPT NAMING CONVENTIONS
+    =>camelCase (used in JS)
+    =>PascalCase (used in JS)
+    =>snake_case
+
+=>camelCase naming convention we use in JavaScript for  Variable , Booleans, Functions, Methods 
+=>PascalCase naming convention we use in JavaScript for Class, Components
+=>Snake_case naming convention we use in JavaScript  for Constants
+
+>Declaration  of variable in JavaScript.
+let myName;
+let myAge;
+
+>initialization  of variable in JavaScript.
+myName =”Anurag”;
+myAge = 22;
+
+>Declaration and initialization  of variable in JavaScript.
+Let myName = “Anurag”;
+Let myAge = 22;
+
+
+>In JavaScript we can create a variable with the help of three Keyword
+         =>var     Keyword
+         =>let     Keyword
+         =>conct   Keyword
+>NOTE
+=> Now we are not use var keyword because var is a part of old JavaScript. var is used in ECMA Script (ES 5) and earlyer version.
+=> Now we are use let and const keyword because let and const is a part of new JavaScript.
+let and const keyword introduce ECMA Script 6(ES6)
+
+>var keyword:- 
+If we declare a variable from var keyword. then we can also re-declare  the variable with the same name of variable and also re-assign the value(value of variable may or may not be same data type) in the same name of variable.
+var myName="Anurag";// Declare and initialized  with var keyword 
+var myName="Priti"; //  Re- declare and re-initialize with same variable name 
+myName="Kavita";    //Re-assign the value. in same variable name(Update)
+console.log(myName);
+
+>let keyword:-
+If we declare a variable from let keyword . then we can’t  re-declare the variable with the same name of variable but  re-assign the value(value of variable may or may not be same data type) in the same name of variable.
+let myName="Anurag";// Declare and initialized   with let keyword
+let myName="Priti"; //  Can not re- declare with same name of variable 
+myName="Kavita";    //Re-assign the value. in same variable name(Update)
+console.log(myName);
+ 
+>Const:- 
+If we declare a variable with const keyword. then  neither re-declare the variable with same name of variable nor re-again with the its value in same name of  variable.
+const myName="Anurag";// Declare and initialized   with const keyword
+const myName="Priti"; //  Can not re- declare with same name of variable 
+myName="Kavita";    // Can not Re-assign the value. in same variable name(Update)
+console.log(myName);
+
+2. Var is globally scoped while let and const are blocked scoped.
+3. var and let initialized with undefined whereas const variable are not Initialized with undefined.
+var age; // initialized with undefined
+let name;// initialized with undefined
+const x; // we can’t initialized with undefined
+document.write(age,name)
+
+const must be initialized during the declaration of  const.
+
+
+
+
+
+

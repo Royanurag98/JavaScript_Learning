@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Create a function using the function keybord that takes a string as an argument 
+//and return the number of vowels in the string.?
+ 
+    function str(x){
+        var temp=0; 
+       for(let i=0; i<=x.length ;i++)
+       {
+       
+        if(x[i]==="a" || x[i]==="A" || x[i]==="e" || x[i]==="E" || x[i]==="i"|| x[i]==="I"|| x[i]==="o" || x[i]==="O" ||x[i]==="u" || x[i]==="U")
+        {
+            temp++;
+        }    
+       }
+       return temp;
+
+    }
+    let Uis=prompt("Enter a string value");
+    let y=str(Uis);
+    document.write(y);
+
+    // const str=(x) =>{
+        
+    //    let  y=x.length;
+    //    let temp=0;
+      
+    //     for(let i=0; i<y; i++)
+    //     {
+            
+    //         if(x[i]==="a" || x[i]==="e" || x[i]==="i" || x[i]==="o" || x[i]==="u")
+    //         {
+    //             temp++;
+    //         }
+           
+    //     }
+    //     return temp;
+    // }
+    //  let t=  str("anurag");
+    //  document.write("Total number of vowel is :" ,t);
+
+
+    
+    
+
+
+
+    </script>
+</body>
+</html>

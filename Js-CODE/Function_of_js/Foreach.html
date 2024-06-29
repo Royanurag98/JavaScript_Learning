@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    // forEach is also a function but it work with array or string
+        so in that case it is called method
+    <script>
+        //forEach method : it is used to create a loop
+        // in jajascript a function can pass as a paremettr that is called  callback function,
+        // A function is passed as a parametter inside the function as a normal variable that is called callback function
+        // function sum(x, sub)
+     var arr=[20,40,50,60,86];
+     // printValue is a callback function . this function automaticelly execute by the forEach method
+     arr.forEach(function printValue(value,index){ // value at each index
+        document.write(`<br>Index ${index} : Elements of array : ${value} <br> `);
+     });
+
+     // forEach method is generally used with arrow function 
+      const arr2=['Anurag','Priti', 'Kivata'];
+      arr2.forEach((value,index,) =>{
+        document.write(`Index ${index} Value of array : ${value.toUpperCase()} <br>`);
+      });
+
+    // forEach() callback function has 3 parametter.
+      // forEach((value, index, Array itself))
+      // value: get all the value of array
+      // index : print position of that values
+      // arr : print array element.
+
+
+// Higher order method or function :is a javascript method that either take another function as a parametter inside them or 
+// thay return as value of another function 
+    
+    
+
+    </script>
+</body>
+</html>

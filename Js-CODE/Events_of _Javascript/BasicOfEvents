@@ -1,0 +1,23 @@
+                                //JAVASCRIPT EVENTS
+// WHAT IS EVENT IN JS.
+/*The change in the state of an object(like button,) is known as an Event.Events are fired 
+to notify code of "interesting changes" that may affect code execution.there 
+are various events which represents that some activity is performed by the user
+ or by the browser*/
+
+// WHAT IS EVENT HANDELER
+ /*When javascript code is included in HTML, jS react over these events and allow
+  the execution. This process of reacting over the events is called Event Handling.
+   Thus, js handles the HTML events via Event Handlers.*/
+
+    // Some of the type of events.
+       /* 1. Mouse Event(Click, Double click etc)
+          2. Keyboard Events(Keypress, Keyup, Keydown)
+          3. Form Event(Submit)
+          4. print event and Many more..*/
+//What is Event object
+ //It is a special object that has details about the event.
+ like
+  // type of Event(Means that event is mouse event, Pointer event, Keybord Event)
+  // target of Event(Means that event occur on div or input or button)
+// All events handlers have access to the event objects properties and method

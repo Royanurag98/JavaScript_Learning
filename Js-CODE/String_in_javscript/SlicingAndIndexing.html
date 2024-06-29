@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Slicing and Indexing of string</title>
+</head>
+<body>
+    <script>
+// Slicing and Indexing of string both are use to gate sub string
+
+    // Indexing Of strings : Indexing of two type 
+
+        // 1. Positive indexing Start with 0, -->  0, 1, 2, 3, 4,...
+        // 2. Negative indexing Satrt with -1.-->  ...-4, -3, -2, -1
+       let str1= "Anurag Roy";
+       document.write(str1[5],"<br>");
+       let str2= "Anurag Roy";
+       // In javascript we can not direct access any string character through Negative indexing
+       document.write(str1[-5],"<br>");   // Return Undefine
+       // So if you want to access any string character through Negative as well as positive indexing We can use
+       // at()function == charAt()
+       document.write(str2.at(3),"<br>");
+       document.write(str2.charAt(3),"<br>");
+       document.write(str2.at(-6),"<br>");
+
+    // Slicing of string
+      /* slice()
+         slice(start)
+         slice(start, end)
+      */
+       let str4= "Anurag Kumar Roy";
+       document.write(str4.slice(2),"<br>")   // >=2 
+       document.write(str4.slice(2,5),"<br>") // =2 to <5
+       document.write(str4.slice(-2),"<br>") // till -2 
+       document.write(str4.slice(-7,-4),"<br>") // < -2 to =-5
+
+          
+    </script>
+    
+</body>
+</html>

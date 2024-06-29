@@ -1,0 +1,50 @@
+                             LOOP IN JAVASCRIPT
+>Loops can execute a block of code a number of times. If you want to  perform a  specific task again and again in that case we use loop .
+   =>for     - loops
+   =>while   - loops 
+   =>do/while- loops
+   =>for/in  - loops
+   =>for/of  - loops 
+
+>for loop
+   =>Loops can execute a block of code again and gain.
+      for (expression 1; expression 2; expression 3)
+         {
+             code block to be executed
+         };
+   =>JavaScript doesn't care. Expression 1, Expression 2,Expression 3 are optional
+        > You can initiate many values in expression 1 (separated by comma):
+            for (let i = 0, len = cars.length, text = ""; i < len; i++) 
+        > And you can also leve expression 1 (like when your values are set before the loop starts):
+            for (; i < len; i++)
+        > you can also omit expression 2, you must provide a break inside the loop.
+          Otherwise the loop will never end.This will crash your browser. Read about
+          breaks in a later chapter of this tutorial.
+        > you can also be omitted expression 3. but you have to include increment of value inside the loop:
+           for (; i < len; )
+           {
+            statement;
+            i++
+           }
+
+>while loop.
+      => First check the condition then execute a block of code.
+
+>do while loop.
+      => First execute a block of code then check the condition.
+         do while loop execute one time before chacking the condition 
+> for in loop 
+   => for in loop is used to get the key(properties) of any iterable object(like Array ,string, Maps, NodeLists)  
+        We can also access the array index as a key with the help of for in loop.
+        The key is used to access the value of iterable object.
+               keyName[objName];
+
+
+> for of loop ( 2015 (ES6))
+   => for of loop is used to get the  value of any iterable object(like Array ,string, Maps, NodeLists)
+
+
+
+>Note
+Do not use for in over an Array if the index order is important.The index order is implementation-dependent,
+and array values may not be accessed in the order you expect.It is better to use a for loop, a for of loop, or ArrayforEach() when the order is important.

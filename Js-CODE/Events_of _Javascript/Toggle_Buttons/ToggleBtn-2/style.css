@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    align-items: center;
+}
+.green{
+    background-color: rgb(6, 136, 43);
+  color:white;
+}
+.blue{
+    background-color: rgb(50, 11, 205);
+    color: white;
+}
+.red{
+    background-color: red;
+  color:white;
+}
+.yellow{
+    background-color:yellow;
+    color: white;
+}
+.pink{
+    background-color: rgb(136, 8, 74);
+  color:white;
+}
+.orange{
+    background-color: rgb(224, 137, 24);
+    color: white;
+}

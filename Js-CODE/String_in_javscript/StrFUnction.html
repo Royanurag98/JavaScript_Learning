@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Function</title>
+</head>
+<body>
+    <script>
+
+// String built in function no change in Original value it return new value. so
+//It's important to know that in JavaScript, strings are immutable. This means 
+//that once a string is created, its contents cannot be changed.
+     let str0= "Anurag Roy";
+     document.write(str0 ,"<br>");// in Old string no change
+     str0="Priti Singh";
+     document.write(str0 ,"<br>");// create a new string
+
+// length Properties : To find the length of a string, use the built-in length property:
+        let str="Hii i am anurag roy and now i am doing Mca";
+        let length= str.length;
+        document.write("Hii i am anurag roy and now i am doing Mca <br>");
+        document.write( `Length of string islength ${length} <br>`);
+
+// toUpperCase() function : A string is converted to upper case 
+        let str1="anurag roy";
+        document.write(str1.toUpperCase(),"<br>");
+
+// toUpperCase() function : A string is converted to upper case
+        let str2="ANURAG ROY";
+        document.write(str2.toLowerCase() ,"<br>");
+
+// trim() Function : It is use to remove whitespaces from before and after the string
+        let str3= "   Anurag Roy   ";
+        document.write(str3.trim() ,"<br>");
+
+// concat() Function : It is use to add two string We can also use + for concatenation.
+        let s1="Anurag";
+        let s2="Roy";
+        document.write(s1.concat(s2),"<br>");
+
+// replace( ) Function is use to replace sub string with another character or number
+        let r="Hello";
+        document.write(r.replace("H","y"),"<br>");
+        document.write(r.replace("H","20"),"<br>");
+
+// we can not update any string character directly based on index  we have to use replace Method
+   let str4="Hello" ;
+   str4[0]="Y"; // no change in old string
+   document.write(str4,"<br>");
+   x= str4.replace("H","Y");
+   document.write(x,"<br>");
+
+
+/*
+The split() method is used to split a string into multiple sub-strings
+and return them in the form of an array.*/
+let s="Anurag roy"; // Anurag --> A,n,u,r,a,g split a string into multiple sub-strings.
+document.write(s.split(""),"<br>");
+
+//The join() method is used to join an array of strings using a separator.
+    
+
+// If you want to remove whitespaces from middle of the string we can use two method
+
+// 1.Method
+     let text= "Anurag Kumar roy";
+     let ns=text.split(" ").join("");
+     document.write(ns,"<br>");
+//2 .Method
+     let str5="Anurag Kumar Roy";
+     let ns2=str5.replace(/ /g, "");
+     document.write(ns2,"<br>");
+
+
+
+
+
+    </script>
+</body>
+</html>

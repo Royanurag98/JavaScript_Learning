@@ -1,0 +1,75 @@
+                            JAVASCRIPT OBJECT
+JavaScript objects is  just a collection of properties(key and value of object is called properties) 
+and methods(Behaviour or function). Object values are written as name : value pairs (name and value separated by a colon).
+
+In JavaScript, almost "everything" is an object except primitives datatype. but we can make an object of primitive datatype with the help of new keyword.
+
+But numbers can also be defined as objects with the keyword new:
+           let y = new Number(123);
+Booleans can be objects (if defined with the new keyword)
+Numbers can be objects (if defined with the new keyword)
+Strings can be objects (if defined with the new keyword)
+Dates are always objects
+Maths are always objects
+Regular expressions are always objects
+Arrays are always objects
+Functions are always objects
+Objects are always objects
+
+primitives datatype are(string ,number, boolean, null, undefined, symbol, bigint)
+A primitive value is a value that has no properties or methods and Primitive values are immutable (it can not be changed)
+if x = 3.14, you can change the value of x, but you cannot change the value of 3.14. 3.14 naver be 3.8
+// Some point about object
+  1. We can Nasting the object.
+  2. Object is dynamic nature means we can modefy(Update, delete, add object properties) the object in runtime.
+  3. If you create a normal variable with const keyword we can not update the value of variable but
+     If you create object with const keyword we can redecleare one by one the object properties because object is reference datatype. 
+     we cant update all properties of object array at once
+     example
+     const arr =[2,3,4,5,6]
+     arr[0]=7;// we can reassingn indivisually
+     arr=[2,4,6,7,8]// but we can not reassign at once
+     const obj={
+            // These are object Properties
+                "First_Name":"Anurag",//String
+                "Last_Name" :"Kumar", //String
+                 "Age"      : 24,     // Number
+                 "Course"   :"MCA",   // String
+                 "Skills":["C", "C++","JavaScript","HTML","CSS","ReactJs"], //Array
+                 "Indial"   :"yes", // boolean
+                 
+               // Method or Behaviour of object
+                  "greatMe" :function(){ /// Function
+                  document.write("Good Morning how are you")
+                  }
+               
+            }
+
+Creating an object in javascript.
+three way to create object in javascript
+1. By object literal
+2. By creating an instance of object directly(Using new keyword)
+3. By using an object constructor(using new keyword).
+
+1. By object literal : it is way to create an object. in this way all the key value pairs written inside
+the curly brackets and seperated by samicolon.
+like 
+   const obj ={                         Note:
+                                            key is always string but value may be different data type. 
+         "Name":"Anurag", 
+         "Id": 5678577,
+         "Roll_Num":67
+   };
+Note
+prototype is a special properties which is inside the every javascript object
+type of prototype is bacilly a refernce of an object
+When We crete the object. a prototype object is automatically created by the browser
+and inside the prototype object lots of properties and mathord
+sometime we use some method for performaing some task with object like tostring().
+these to string method inherited from the prototype object.
+
+another example
+Suppose we crete a array like
+  let arr=["mango","Banan","orange"];
+  and we want to add one fruit inside the array we use pop() method . this pop() is
+   bacilly inherited from prototype object.

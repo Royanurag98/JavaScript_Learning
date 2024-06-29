@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+</head>
+<body>
+    // If you want to use date Method First you have to create object for date.
+      let now = new Date() // create a object. 
+      <script>
+                                         //DATE MATHOD
+ 
+        var Now = new Date()  // create a object.
+    // Date() Method : It return all info about date like current date, time ,year, country.
+        console.log(Now)//Tue Dec 19 2023 17:36:05 GMT+0530 (India Standard Time)
+    // toDateString(): it return date in short
+        console.log(Now.toDateString())//Tue Dec 19 2023
+    // getDate() : Return current date
+        console.log(Now.getDate())//19
+    // getFullYear() : Return current year
+        console.log(Now.getFullYear())//19
+    // getMonth() : Return current month
+        console.log(Now.getMonth())//19
+    // getDay() : Return current day 1-Monday so on
+        console.log(Now.getDay())//2-tuesday
+    // We can find  day of past date  
+    let past = new Date(`10 january 1998`);
+    console.log(past.getDate())// 10 
+    console.log(past.getDay())// 6-Saturday
+    console.log(past.getMonth())//0- January
+    console.log(past.getFullYear())//1998
+
+                                           // TIME MATHOD
+    let Time = new Date();
+    // getHours() : Return current hours.
+    console.log(Time.getHours())  
+    // getMinutes() : Return current hours.
+    console.log(Time.getMinutes())
+    // getSeconds() : Return current hours.
+    console.log(Time.getSeconds())
+    // getMilisecond() : Return current hours.
+    console.log(Time.getMilliseconds())//1998
+
+    // We can also find  time of past date. 
+
+    // We can see future date , month , day...
+
+
+
+      </script>
+    
+</body>
+</html>

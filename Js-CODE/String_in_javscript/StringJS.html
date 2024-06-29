@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+    // STRING IN JAVASCRIPT...
+    // String is a sequence of character used to represent text.
+
+    //A JavaScript string is zero or more characters written inside quotes single or double quotes
+    let str="Anurag";
+    let str1='Kumar';
+    let str2="";
+    document.write(str,  typeof( str),"<br>");
+    document.write(str1, typeof( str1),"<br>");
+    document.write(str2, typeof( str2),"<br>");
+
+    //You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+    // We can not do that let str = "Anurag "Roy" ";
+     let str3="Anurag kumar 'Name' ";
+     let str4='This is a "Gun" ';
+     document.write(str3, "<br>");
+     document.write(str4, "<br>");
+
+     // Escape Character(you can also use template literals)
+        // The sequence \"  inserts a double quote in a string:
+        //The sequence \'  inserts a single quote in a string:
+    let str5="Hello how \"are you";
+    let str6="Hello how\'s are you";
+    document.write(str5, "<br>"); //Hello how "are you
+    document.write(str6, "<br>"); //Hello how's are you
+
+
+    //Note
+// We can find length of array using length method 
+ let arr=[2,3,4,5,67,8,9];
+ len= arr.length;
+ document.write("length of array is :",len)
+
+ // We can also find length of string using length method.
+ let str7 = "Anurag Kumar";
+ length= str7.length;
+ document.write("<br>length of string ",length)
+
+ // But we can not find length of obj using length method.
+//  We have to use object.keys(obj_name).length.
+  let obj ={
+     "Anurag":98,
+     "Rohan": 97,
+     "Priti":97
+    };
+
+    let length1=Object.keys(obj).length;
+    document.write("<br>Return length of obj",length1);
+    document.write("<br>Return all the keys of obj inside the array", Object.keys(obj))
+    for (let i=0; i<length1;i++)
+    {
+      document.write(`<br> ${Object.keys(obj)[i]} Got ${obj[Object.keys(obj)[i]]} marks`);// Return value of object  
+    }
+
+    </Script>
+    
+    
+</body>
+</html>

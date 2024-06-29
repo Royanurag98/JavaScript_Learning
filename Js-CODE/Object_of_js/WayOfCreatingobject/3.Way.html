@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     Create an object by using an  constructor method(using new keyword).
+     this method is used to create a skiliton of an object we can pass multiple user details in this object.
+     this is not a variable. It is a keyword. You cannot change the value of this.
+    <script>
+        // Here details makes a class constructor function if you use this keyword while creating object properties
+        // This keyword point constructor function (details) function and then new keyword return this inside the identity variable
+    function Details(First_Name, Last_Name, Age, Course, Skills, Nationality  ){
+    this.First_Name  =First_Name;   //String
+    this.Last_Name   =Last_Name;    //String
+    this.Age        = Age;          // Number
+    this.Course     =Course;        // String
+    this.Skills     =  Skills;      //Array
+    this.Nationality =Nationality;  // boolean
+}
+// Here we pass all the value in constructor Function
+// new keyword crete empty object. and empty object point the reference of this keyword
+var Identity= new Details("Anurag", "Kumar", 23, "MCA", "WEb_DEV", "Indian" );
+console.log(Identity);
+
+    </script>
+</body>
+</html>

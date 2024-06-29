@@ -1,0 +1,31 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ background-color: pink;
+
+}
+#Heading{
+    background-color: yellow;
+    color: blue;
+}
+.info{
+    background-color: aqua;
+    color:green;
+
+}
+button{
+    margin-left: 10px;
+    background-color: blue;
+    color:wheat;
+}
+div{
+    border: 5px solid black;
+}
+div.h1{
+    background-color:rgb(117, 184, 17);
+    color: red;
+}
+div.p{
+    background-color: aqua;
+    color: black;
+}

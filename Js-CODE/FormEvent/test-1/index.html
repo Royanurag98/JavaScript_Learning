@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Login Page</h1>
+        Username: <input type="text" class="Userinput"> 
+        Password: <input type="password" class="Userpass">
+        <button  class="btn"> Submit</button>
+    
+    </div>
+    <script>
+        let Userinput=document.querySelector(".Userinput");    
+        let Userpass=document.querySelector(".Userpass");
+        
+   let x= Userinput.addEventListener("focus",()=>{
+            Userinput.style.backgroundColor="green"; 
+
+        })
+        Userinput.addEventListener("blur",()=>{
+            Userinput.style.backgroundColor=""; 
+
+        })
+        Userpass.addEventListener("focus",()=>{
+            Userpass.style.backgroundColor="green"; 
+            
+        })
+        Userpass.addEventListener("blur",()=>{
+            Userpass.style.backgroundColor=""; 
+
+        })
+       
+    </script>
+</body>
+</html>

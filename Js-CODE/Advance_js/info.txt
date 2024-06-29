@@ -1,0 +1,28 @@
+                                     Sync and Async in Js ?
+Synchronous :
+Synchronous  means the code runs in a particular sequence of instructions given in the program. 
+each instruction waits for previous instruction to complete its execution. 
+
+In other words
+Meaning of synchronous  programming is suppose you write a multiple line of instruction in your program 
+in a sequence . in that case all lines of code run one by one and second lines of code waits for the previous 
+line when previous line of code is executed now control of execution jump to the next line. 
+ 
+Note : JavaScript is also synchronous programming language or single threaded
+
+Async in js
+Due to synchronous programming sometimes important instruction get blocked due to some previous instruction , 
+which causes a delay in the UI. Asynchronous programming allow us to execute next instruction immediately 
+and dose not block the flow of code
+
+Other Word
+Suppose we write a 5 line of instruction in program. And unfortunately  3rd   line  instruction take some time
+for execution. In that case  Asynchronous programming   allow us to execute next instruction immediately so all
+ line of instructions run one by one and also 3rd line of instruction execute parley . when it execute print 
+ whatever written  in 3rd instruction.
+git
+setTimeout() execute a function according to user . means When the user want to execute that function.we have
+to pass the time inside thesetTimeout() function
+
+Callback
+A function which is passed inside the another function as an argument. that is called callback.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predefine Function For Number</title>
+</head>
+<body>
+    <script>
+    // 1.Number() function : It is used to convert Numeric String and number  value in to a number.
+          let x="30"
+          let y= Number(x);
+          console.log(y);
+          let z=30.000;
+          let u=Number(30.000);
+          console.log(u);
+        //   let d=Number(prompt("Enter anumber"));
+        //   console.log(d,typeof(d));
+        //   let p=parseInt(prompt("Enter anumber"));
+        //   console.log(p,typeof(p));
+
+
+    // 2.parseInt()  function : It is used to convert Numeric String and float value in to a number.
+    // 2.parseFloat()  function : It is used to convert  number value in to a float.
+       let t="50";// parseFloat():Numeric string  also convert in number 
+       let v=parseFloat(t);
+       console.log(v, typeof(v));
+       let l=20.4566;
+       let k=parseFloat(l);// type of number
+       console.log(k, typeof(k));
+       let g=10.56;
+       console.log(g.toFixed(1));
+
+    // ceil and floar Works on decimal velue
+    // Math.ceil(): it return always upper value.
+         console.log(Math.ceil(2.5));// return 3
+         console.log(Math.ceil(-2.59));// return -2
+    // Math.floorl(): it return always lower value.
+         console.log(Math.floor(2.5));// return 2
+         console.log(Math.floor(-2.59));// return -3
+    // Math.round(): it return upper value when value abhave .5 otherwise return loweer value
+         console.log(Math.round(2.56));// 3
+         console.log(Math.round(2.46));// 2
+    // Math.trunc(): it remove after decimal point value
+         console.log(Math.trunc(2.567));//2
+         console.log(Math.trunc(-5.308));//-5
+    // Math.min(val1,val2,val3..): it return minimum value
+         console.log(Math.min(20,30,45,21,38,97,14));
+       
+    // Math.min(val1,val2,val3..): it return minimum value
+         console.log(Math.max(20,30,45,21,38,97,14)); 
+    // Math.sqrt(): it return the square root of any value
+         console.log(Math.sqrt(16))
+    // Math,cbtr(): it return the Cube root of any value
+         console.log(Math.cbrt(27))
+    // Math.pow():It return the power value of any number
+          console.log(Math.pow(3,3));
+    </script>
+</body>
+</html>10
+10

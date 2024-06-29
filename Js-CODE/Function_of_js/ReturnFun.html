@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Function parametters are local variables of function and Scope of the parametter is blocked.
+     function Sum(x,y)
+     {
+        let Add= x+y;
+        return Add;
+
+// After return any code is not execute
+        document.write("Not execute this line of code");
+     }
+     let n1=prompt("Enter first number");
+     let n2=prompt("Enter second number");
+     let a=parseInt(n1);
+     let b=parseInt(n2);
+     let t=Sum(a,b);
+     document.write("Sum of X + Y is : ",t);
+    </script>
+</body>
+</html>

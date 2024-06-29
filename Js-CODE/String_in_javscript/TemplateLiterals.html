@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Literals in JavaScript</title>
+</head>
+<body>
+    <script>
+    //  TEMPLATE LITERALS( Template Strin) IN JAVASCRIPT 
+    // Template Literals is nothing but it is a another way to write string in javascript.
+    //Template Literals use back-ticks (``) rather than the quotes ("") to define a string:
+     let str= "Anurag";
+     let str2=`Kumar`;
+     document.write(str,"<br>");
+     document.write(str2,"<br>");
+     console.log(`My name is ${str} ${str2}`);
+
+                // Benifit of back-ticks (``)
+
+    //1. We can use single and double quotes inside a string
+      let text = `He's often called "Johnny"`;
+      document.write(text,"<br>");
+
+    //2. we can write  multiline strings:
+      let str3=`hello anurag
+      how are you
+      i am fine what about you
+      nice  to meet you `
+      document.write(str3,"<br>");
+
+    // We can also print variable with string
+     // Normaly we do that if we print variable with string
+      let item="pen";
+      let price=20;
+      document.write("The cost of ",item,"is ",price,"<br>");// Normal Way
+      document.write(`The cost of ${item} is  ${price} `);// Template string
+
+    // String Interpolation:
+    /*Template literals provide an easy way to interpolate variables and expressions into strings.
+      The method is called string interpolation.*/
+    let car= "BMW";
+    let Cost=1000000;
+    let A,B,Total;
+    A=20;
+    B=30;
+    document.write(`The price of ${car} is ${Cost} Rupes <br>`)
+    document.write(`Sum of A + B is ${A+B}`)
+
+
+        
+       
+
+    </script>
+</body>
+</html>

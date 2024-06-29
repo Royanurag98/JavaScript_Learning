@@ -1,0 +1,47 @@
+                             DATA TYPE IN  JAVASCRIPT
+Data type is used to define a variables.means in this container which type of data are 
+stored. in JavaScript  data type depend on value of variable.A JavaScript variable can 
+hold any type of data.
+
+Data type in Js
+
+Primitive Data-type                                  Non Primitive Data-type
+(NN BB SS U)
+> Null                                                               > Object
+> Number                                                             > Array
+> Boolean
+> BigInt
+> String
+> Symbol
+> Undefined
+
+Note :
+=> When adding a number and a string, JavaScript will treat the number as a string.
+     let Number= 36;                   Output 
+     let Name  = "Anurag";               36Anurag         
+     console.log(Number+Name);
+
+=> JavaScript evaluates expressions from left to right. Different sequences can produce different results:
+     let x = 16 + 4 + "Anurag"               20Anurag
+     let x = "Anurag"+16 + 4 ;               Anurag164
+     console.log(x);                         
+> All JavaScript numbers are stored as decimal numbers (floating point).
+> Javascript numbers are always one type:  double (64-bit floating point).
+
+Question
+> Crete a variable of type string and try to add a number to it?
+> Use typeof operator to find the data type of string in last question?
+> Crete a const object in JavaScript can you changed it to hold a number later?
+> Try to add a new key to the const object in problem 3 were you able to do it?
+> Write a js program to create a word – meaning dictionary of 5 words?
+
+
+
+
+
+
+
+
+
+
+

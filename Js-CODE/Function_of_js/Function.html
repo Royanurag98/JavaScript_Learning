@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      // Function in javascript
+      /*A JavaScript function is a block of code designed to perform a particular task.
+        A JavaScript function is executed when "something" invokes it (calls it)*/
+     
+    // FUNCTION DECLEARATION
+    function Sum() 
+    {
+    // Function Defination
+        let x=prompt("Enter the first value : ");
+        let y=prompt("Enter the Second value : ");
+        let num1=parseInt(x);
+        let num2=parseInt(y);
+
+        let total=num1+num2;
+        document.write(`Sum of num1 + num2 is ${total}`);
+    }
+    // Function call
+        // We can call same function in multiple time. 
+        Sum();
+
+
+    // FUNCTION EXPRESSION 
+    const Greating=function ( x){//Anonymous Functions has no identifier or name.
+        return x;
+    }
+     let  Accept_your_Greating=Greating("Ram Ram Bhai Log");
+     console.log(Accept_your_Greating);
+   
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

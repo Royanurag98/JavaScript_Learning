@@ -1,0 +1,17 @@
+>What is window object ? 
+The window object represents an open window in a browser .  it is browser’s  object( not JavaScript object) and 
+it is automatically created by browser. It is a global object with lots of properties and method. like alert(),prompt(), console.log()..
+We can directly use window object no need to define window.
+like 
+     window.console.log("hello");// define 
+     consol.log("hello");        // not define
+
+>HTML DOM (Document Object Model)
+When a web page is loaded , the browser creates a Document Object Model of the page.
+The HTML DOM model is constructed as a tree of Objects:
+When we write a HTML code attached with JavaScript we can access all the HTML code inside the JavaScript.(Means Dom is way to access html code inside the javascript )
+
+>How we will access the HTML code
+Automatically  all the HTML code convert in object inside the JavaScript and objects are known as document(document is model or Representation of HTML code  and this representation of code look like tree) of HTML code and this document available  inside the window object as a sub document of window object because in window object already exist a document. And we can access all the HTML code through the sub document.
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+In other words  The HTML DOM is a standard for how to get, change, add, or delete HTML elements.

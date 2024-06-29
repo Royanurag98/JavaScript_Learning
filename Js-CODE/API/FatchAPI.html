@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+// API : API stand for Application Programming Interface
+// Suppose We are sit in Restronent and we call the watter
+// give him some order for food in that case water take your order and after some time he placed you order. 
+// Same as Api do that it  takes your request and after some times  it return your requested data
+
+Befour calling the Api see some examle
+
+// fetch API
+ The Fetch API provides an interface for fatching (Sending/ Receiving) resources
+ and fetch API uses Request and Response object internally
+
+ fetch() method is use to send and recive the data
+  syntax
+     let promise = fatch(url, [options])
+     when we write the url(link) inside the fatch method our code automatically send the request on that link 
+     and fatch method return the promise
+when we fatch data from any url through api(it may be food api.....)it return data in different formate
+so we cant read.
+now we have to understant why we not get the proper data from api when we send get request from url through js
+ 
+AJAX :- is Asynchronous js and xmal
+Earlyer when we fatch data through Api . data comes in xml formate
+
+JSON :-  is Javascript object Notation
+Now when we fatch data through Api . data comes in JSON formate(Means it return data like javascript object forment)
+
+// Process when we call API
+  s1- When we send the request to Api . API return some responce and this responce in JSON formate
+  s2- Now we have to convert this response JSON to Javascript object and we use to json() methord  for converting these response.
+  
+  
+  <br><br><br><br>
+
+
+
+<button class="btn">See cat Fact</button>
+<div class="box">
+<p > hello</p>
+<p > hello</p>
+<p > hello</p>
+<p > hello</p>
+<p > hello</p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+                                   FUNCTION IN JAVASCRIPT
+>A JavaScript function is a block of code designed to perform a particular task.
+>A JavaScript function is executed when "something" invokes it (calls it).
+     syntax
+           function function_name(parameter1, parameter2, parameter3){
+            code..........
+           }
+
+// Function is pice of code that can be use again and agin in the program for doing same task.
+// If i associted this function with any object in that case that function make a method.
+ // toUpperCase  is function but if i bind with any object in that case this function is called method
+ ex- abc.toUpperCase here bind with string
+
+
+
+
+

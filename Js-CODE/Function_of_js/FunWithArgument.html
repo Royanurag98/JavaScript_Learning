@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+      // FUNCTION ARGUMENT
+      function swapNum( num1, num2){// Function parametters(We can pass multiple parametters)
+        document.write(`Befour Swing the number <br>`);
+        document.write(`Num1 = ${num1} <br> Num2 = ${num2}<br><br>`)
+          let temp=num1 + num2;
+           num1=temp-num1;
+           num2=temp-num2;
+          document.write(`After Swaping the numbe <br>`);
+          document.write(`Num1 = ${num1}<br>`);
+          document.write(`Num2 = ${num2}`);
+
+      }
+      let x=parseInt(prompt("Enter first number"));
+      let y=parseInt(prompt("Enter first number"));
+      let z=parseInt(prompt("Enter first number"));
+      swapNum(x,y,z); // Function Argument(We can  also pass multiple Argument)
+
+    //  FUNCTION WITH DIFAULT PARAMETTER
+    // function take difault argument if you are not pass any argument or pass only one argument in that case function work with difault argument
+      function addNum(x=6,y=5){
+        Sum=x+y;
+        document.write(`Sum of X + Y is : ${Sum}`)
+      }
+      let n1=parseInt(prompt(`Enter the first value :`));
+      let n2=parseInt(prompt(`Enter the second value :`));
+      addNum()// pass no argument,
+      addNum(n1)// pass only one argument
+      addNum(n1,n2)// pass both the arguments
+
+
+    </Script>
+</body>
+</html>

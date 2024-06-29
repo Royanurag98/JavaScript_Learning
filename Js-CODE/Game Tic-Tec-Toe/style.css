@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(6, 86, 113) ;
+   
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 32, 32);
+    border: 2px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.msg{
+    width: 15rem;
+    height: 34px;
+    /* background-color: aqua; */
+    border-radius: 7px;
+}
+.msgtext{
+    color: rgb(42, 165, 67);
+    text-align: center;
+    text-shadow: 5px 2px 3px 0px;
+    
+}
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-shadow: 5px 2px 5px ;
+    text-decoration: underline;
+    
+}
+.boxes{
+    
+    height: 70vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black;  */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem; */
+}
+#box{
+    width: 60vmin;
+    height: 60vmin;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+    background-color:rgb(6, 86, 113);
+    /* opacity: 0.9;
+    box-shadow: 0px 0px 22px 0px;
+    border: 2px solid rgb(131, 97, 33);
+    color: white;
+   
+    margin: 0px; */
+}
+.btn{
+    width:18vmin;
+    height:18vmin;
+    border-radius: 15px;
+    box-shadow: 5px 3px 8px 3px;
+    font-size: 8vmin;
+    background-color: antiquewhite;
+    
+}
+.btn:hover{
+    background-color: green;
+}
+.resetBtn{
+   width: 5rem;
+   height: 2rem;
+   font-size: 18px; 
+   background-color: rgb(5, 5, 12);
+   opacity: 0.8;
+   border-radius: 7px;
+   color: aliceblue;
+   
+}
+.startBtn{
+    width: 5rem;
+    height: 2rem;
+    font-size: 18px; 
+    background-color: rgb(5, 5, 12);
+    opacity: 0.8;
+    border-radius: 7px;
+    color: aliceblue;
+    
+}
