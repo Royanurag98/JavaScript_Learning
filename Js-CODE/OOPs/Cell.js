@@ -6,21 +6,21 @@
 // in that case we have to create method for both the object inside it or if i create the method outside of the object
 // in that that we have to set the value of that function . for accessing the properties of that object
 
-// function  AssocriesDetails(){
-//     console.log(` Product Details =>\n \tProduct Name : ${this.productName}\n\tProduct Id : ${this.productId}\n\t Price : ${this.Price} ` )
-// };
-// let Assocries1={
-//      productName  :"Phone",
-//      productId    :10009972,
-//      Price        : 10000 ,
-//      productInfo: AssocriesDetails // set the value of that function
-// }
-// let Assocries2={
-//     productName  :"Laptop",
-//     productId    :10009973,
-//     Price        : 50000 ,
-//     productInfo: AssocriesDetails   
-// }
+function  AssocriesDetails(){
+    console.log(` Product Details =>\n \tProduct Name : ${this.productName}\n\tProduct Id : ${this.productId}\n\t Price : ${this.Price} ` )
+};
+let Assocries1={
+     productName  :"Phone",
+     productId    :10009972,
+     Price        : 10000 ,
+     productInfo: AssocriesDetails // set the value of that function
+}
+let Assocries2={
+    productName  :"Laptop",
+    productId    :10009973,
+    Price        : 50000 ,
+    productInfo: AssocriesDetails   
+}
 
 // Assocries2.productInfo();
 

@@ -253,22 +253,33 @@
 // referece()
 
 //In a function under strict mode, this becomes undefined.
-"use strict";
-function myFunction() {
-  return this;
-}
+// 
 
-let takeVal=myFunction()
-console.log(takeVal)
+arr1=[1,2,2,3,4,4]
+arr2=[2,2,4,5,5,6]
 
-//In HTML event handlers, this refers to the HTML element that received the event:
-var btn=document.querySelector(".btn")
-let h1=document.querySelector(".heading")
+let arr3=[]
+const short=(arr1, arr2)=>{
 
+   for(let val of arr1){
+    for(let val2 of arr2){
+      if(val==val2){
+        arr3.push(val)
+      
+     
+        
+      }
+    
+  }
+    }
+    console.log(arr3)
+    
+   }
+ 
 
-    btn.addEventListener("click", (evt)=>{
-   
-        // h1.innerText="hello Anurag"
-        console.log("hellow")
+ 
+  
+ 
 
-    })
+let c=short(arr1, arr2);
+

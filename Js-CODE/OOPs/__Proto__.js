@@ -130,7 +130,7 @@ function personInfo3(firstName,lastName,email,age,address){
 
 
  ////////////////////////////////////////////////////////
- // in previous way we create a function and lso create a object which contain the method the we convert in proto of that object
+ // in previous way we create a function and also create a object which contain the method then we convert in proto of that object
  // we can directly add all the method in function with the help of prototype
 //  const userMethod1 = {
 //     about:function(){
